@@ -22,7 +22,7 @@ body {
 }
 
 .header-container {
-  margin-top: 5px;
+  margin-top: 55px;
   width: 100%;
 }
 
@@ -30,7 +30,7 @@ nav {
   width: 100%;
   max-width: 800px;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 15px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
