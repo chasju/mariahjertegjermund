@@ -44,4 +44,7 @@ reactP = ["JA!"];
 reactButton.addEventListener("click", () => {
   reactP.push("!");
   reactButton.innerHTML = reactP.join("");
+  if (reactP.join("") === "JA!!!!!!!!!!!!!") {
+    reactP.splice(1);
+  }
 });
