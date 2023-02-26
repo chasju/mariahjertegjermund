@@ -15,7 +15,7 @@ burgerBtn.addEventListener("click", () => {
 // counter
 
 const countContainer = document.querySelector(".counter");
-const weddingDate = new Date("Aug 5, 2023 12:00:00").getTime();
+const weddingDate = new Date("Aug 5, 2023 13:00:00").getTime();
 
 let countDown = setInterval(() => {
   const todaysDate = new Date().getTime();
