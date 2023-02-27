@@ -173,6 +173,14 @@ nav {
   font-family: "montserrat", Verdana, Tahoma, sans-serif;
 }
 
+.invite-container {
+  margin: auto;
+  margin-top: 35px;
+  width: 100%;
+  max-width: 400px;
+  height: 135px;
+}
+
 .invite {
   width: 100%;
   margin-bottom: 60px;
