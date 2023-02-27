@@ -199,6 +199,8 @@ nav {
   left: 0;
   right: 0;
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
   display: none;
 }
