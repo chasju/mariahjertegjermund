@@ -1,6 +1,5 @@
 const burgerBtn = document.querySelector(".hamburger");
 const dropdown = document.querySelector(".dropdown");
-const button = document.querySelector(".dropdown button");
 
 let burgerOpen = false;
 
