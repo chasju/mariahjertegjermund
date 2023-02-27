@@ -15,7 +15,7 @@ a {
 }
 
 body {
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   min-width: 100vw;
   min-height: 100vh;
   font-family: "montserrat", Verdana, Tahoma, sans-serif;
@@ -171,4 +171,9 @@ nav {
   letter-spacing: 1px;
   font-size: 18px;
   font-family: "montserrat", Verdana, Tahoma, sans-serif;
+}
+
+.invite {
+  width: 100%;
+  margin-bottom: 60px;
 }
