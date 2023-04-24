@@ -4,9 +4,13 @@
 }
 
 * {
+  box-sizing: border-box;
+}
+
+html,
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 a {
@@ -15,7 +19,6 @@ a {
 }
 
 body {
-  /* background-color: #f2f2f2; */
   min-width: 100vw;
   min-height: 100vh;
   font-family: "montserrat", Verdana, Tahoma, sans-serif;
@@ -34,6 +37,23 @@ nav {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.active {
+  background-color: #1e4800;
+  border-radius: 10px;
+  padding: 0.5rem;
+  transform: translate(-0.5rem);
+}
+
+.active a {
+  color: white;
 }
 
 .logo-container p {
@@ -82,9 +102,45 @@ nav {
   transform: rotate(90deg);
 }
 
-.name-container {
+.name-container,
+.contact-container {
   width: fit-content;
   margin: auto;
+  max-width: 600px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contact-container {
+  margin-top: 3rem;
+  background-color: #1e48005c;
+
+  padding: 1.5rem;
+  padding-bottom: 3.5rem;
+  border-radius: 10px;
+}
+
+.contact-container h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.contact-container > * {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.hover {
+  font-weight: 600;
+}
+
+.hover:hover {
+  color: white;
+}
+
+h1 {
+  font-weight: 500;
 }
 
 .maria,
