@@ -46,14 +46,14 @@ li {
 }
 
 .active {
-  background-color: #1e4800;
+  background-color: #1e48000f;
   border-radius: 10px;
-  padding: 0.5rem;
-  transform: translate(-0.5rem);
+  padding: 0.5rem 1rem;
+  transform: translate(-1rem);
 }
 
 .active a {
-  color: white;
+  color: #1e4800;
 }
 
 .logo-container p {
@@ -112,13 +112,27 @@ li {
   padding-right: 10px;
 }
 
-.contact-container {
+.contact-container,
+.overnatting-container {
   margin-top: 3rem;
   background-color: #1e48005c;
-
   padding: 1.5rem;
   padding-bottom: 3.5rem;
   border-radius: 10px;
+}
+
+.overnatting-container {
+  background-color: unset;
+  text-align: center;
+}
+
+.overnatting-container > * {
+  font-size: 1.2rem;
+}
+
+.map {
+  max-width: 600px;
+  margin: auto;
 }
 
 .contact-container h3 {
