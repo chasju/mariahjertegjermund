@@ -163,17 +163,27 @@ h1 {
   padding-top: 36px;
 }
 
-.image-container {
+.image-container,
+.image-onskeliste {
   margin: auto;
   margin-top: 75px;
   width: 100%;
   max-width: 400px;
   height: 135px;
-  background-image: url(/images/mogG.jpeg);
+  border-radius: 10px;
   background-size: cover;
   background-position: center;
   background-position-y: -60px;
   background-repeat: no-repeat;
+}
+
+.image-container {
+  background-image: url(/images/mogG.jpeg);
+}
+
+.image-onskeliste {
+  background-image: url(/images/onskeliste.jpg);
+  background-position-y: -65px;
 }
 
 .count-container {
