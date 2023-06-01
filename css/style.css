@@ -103,13 +103,21 @@ li {
 }
 
 .name-container,
-.contact-container {
+.contact-container,
+.onskeliste-container {
   width: fit-content;
   margin: auto;
   max-width: 600px;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.onskeliste-container {
+  text-align: left;
+  max-width: 400px;
+  padding-left: unset;
+  padding-right: unset;
 }
 
 .contact-container,
@@ -198,6 +206,33 @@ h1 {
 .image-onskeliste {
   background-image: url(/images/onskeliste.jpg);
   background-position-y: -65px;
+}
+.m-top-2 {
+  margin-top: 30px;
+}
+
+.wish-item {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.bg-gray {
+  background-color: #d1d1d1;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: auto;
+}
+.m-top-4 {
+  margin-top: 40px;
+}
+
+.padding-unset {
+  padding-left: unset;
+}
+
+.w-item {
+  font-size: 1rem;
+  padding: 0.6rem;
 }
 
 .count-container {
