@@ -247,12 +247,12 @@ h1 {
   letter-spacing: 2px;
 }
 
-.loader {
+/* .loader {
   width: 30px;
   height: 2px;
   background-color: #252525;
   margin-right: 0;
-}
+} */
 
 .counter {
   display: flex;
